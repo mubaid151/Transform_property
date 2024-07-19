@@ -1,0 +1,116 @@
+H1 {
+    display: flex;
+    justify-content: center;
+    border: 2PX SOLID transparent;
+    margin: 40PX;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    justify-items: center;
+    align-items: center;
+}
+
+.box {
+    border: 2px solid transparent;
+    height: 50px;
+    width: 70px;
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ff00ff80;
+    transition: 0.3s;
+    cursor: pointer;
+    font-size: larger;
+    position: relative;
+    font-weight: bold;
+
+
+}
+
+
+.box1:hover {
+    transform: scaleX(1.5);
+
+
+
+}
+
+.box2:hover {
+    transform: scaleY(1.5);
+
+}
+
+.box3:hover {
+    transform: scale(1.5);
+
+}
+
+.box4:hover {
+    transform: translateX(45px);
+
+}
+
+.box5:hover {
+    transform: translateY(30PX);
+
+}
+
+.box6:hover {
+    transform: matrix(1, 0.3, 0.3, 1, 20, 20);
+
+}
+
+.box7:hover {
+    transform: rotate(0.5turn);
+
+}
+
+.box8:hover {
+    transform: skew(20deg);
+
+}
+
+.box9:hover {
+    transform: skewX(20deg);
+
+}
+
+.box10:hover {
+    transform: skewY(20deg);
+
+}
+
+.box11:hover {
+    transform: matrix3d(1, 0, 0, 0, 0, 1, 6, 0, 0, 0, 1, 0, 25, 50, 0, 1.1);
+
+}
+
+.box12:hover {
+    transform: translate3d(100px, 20px, 0);
+
+}
+
+.box13:hover {
+    transform: rotateX(45deg);
+
+}
+
+.box14:hover {
+    transform: rotateY(45deg);
+
+}
+
+.box15:hover {
+    transform: perspective(500px) translateZ(80px);
+
+
+}
+
+.box16:hover {
+    transform: rotateZ(45deg);
+
+}
